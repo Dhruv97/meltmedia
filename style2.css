@@ -1,0 +1,472 @@
+html,
+body {
+    height: 100%;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Typo Light;
+}
+
+.period {
+    font-family: "Arial Rounded ";
+}
+@font-face{
+    font-family: 'Typo Light';
+    src: url('TypoSlab_light_demo.otf');
+
+}
+
+@font-face{
+    font-family: 'Typo';
+    src: url('TypoSlab_demo.otf');
+
+}
+
+@font-face{
+    font-family: 'Typo Bold';
+    src: url('TypoSlab_bold_demo.otf');
+
+}
+
+#cover img {
+    max-width: 90%;
+    margin-top: -10px;
+}
+
+.see {
+    background-color: transparent;
+    border:1px white solid;
+    padding: 5px 25px 5px 25px;
+
+}
+
+#about2 {
+    background: #222 url("bg2.png") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+#about3 {
+    background-color: #e7e8e8;
+
+    height: 680px;
+}
+
+#about4 {
+    background: #222 url("map.png") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#about5 {
+    background-color: white;
+    width: 100%;
+    height: 610px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    font-family: "Typo Light";
+    font-size:18px;
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.navbar-custom {
+    background-color: transparent;
+    color:white;
+    border-radius:0;
+
+}
+
+
+.navbar-custom .navbar-toggle {
+    margin-top: 28px;
+}
+.navbar-custom {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+
+
+
+.navbar-brand {
+    height: 80px;
+}
+
+.navbar-nav li {
+
+    line-height: 0px;
+}
+
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+    border-bottom: 2px solid #ecf0f1;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    border-bottom: 2px solid #ecf0f1;
+    background-color: transparent;
+    color: white;
+
+}
+.navbar-custom .navbar-nav li a {
+
+    line-height: 0px;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color:transparent;
+    border-width:1px;
+    border-color: white;
+}
+.navbar-custom .icon-bar {
+    background-color:white;
+}
+
+
+
+.section-content {
+
+    padding: 5rem 0;
+
+}
+
+.about-text h1 {
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+}
+
+.about-text2 h1 {
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+}
+
+.about-text3 h1 {
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+}
+.about-text {
+    margin-top:10%;
+    font-family: Roboto-Thin, "Helvetica Neue", sans-serif;
+    color: white;
+    padding: 1.875rem;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+.about-text2 {
+    margin-top:10%;
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+    color: white;
+    padding: 1.875rem;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+.about-text3 {
+    margin-top:10%;
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+    color: white;
+    padding: 1.875rem;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+
+
+#cover {
+    background: #222 url("bg.png") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 900px;
+
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width:100%;
+}
+
+
+.section-content {
+
+    padding: 5rem 0;
+
+}
+
+
+#cover h1 {
+font-size: 4em;
+}
+
+
+a {
+
+    transition: background 0.15s linear 0s;
+
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    transition: background 0.15s linear 0s;
+}
+
+#arrow {
+    transition: border .5s ease 0s;
+    margin-top: -50px;
+    color: white;
+    border-color: white;
+}
+
+#arrow:hover{
+    border-color: #59ddff;
+    background-color: transparent;
+    border-width: 1px;
+    color: 59ddff;
+
+}
+
+
+
+@media (max-width: 560px) {
+
+#cover img {
+display: none;
+}
+    #cover {
+        text-align: center;
+    }
+
+    #touch {
+        width: 270px;
+        max-height: 100%;
+        margin-top: -50px;
+        margin-left: -10px;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    #cover img {
+
+        margin-top: 30px;
+    }
+
+    #cover h1 {
+        text-align: left;
+        font-size:4em;
+        margin-left: 15%;
+    }
+
+
+
+    .about1-text p {
+        text-align: left;
+        margin-left: 15%;
+    }
+
+    #touch {
+        width: 280px;
+        max-height: 100%;
+        margin-top: -50px;
+        margin-left: 25%;
+    }
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) {
+
+    #cover img {
+
+        margin-top: 50px;
+        margin-top: 50px;
+    }
+
+
+    .about1-text h1{
+        margin-top: 50px;
+
+        text-align: left;
+        font-size:4em;
+        margin-left: 15%;
+
+
+    }
+
+    #cover  button{
+        text-align: left;
+        margin-left: 15%;
+
+    }
+
+
+
+    .about1-text p {
+        text-align: left;
+        margin-left: 15%;
+    }
+
+}
+
+@media (min-width: 551px) and (max-width: 660px) and (orientation: portrait) {
+    #cover h1 {
+        font-size: 3em;
+
+    }
+
+
+    #cover img {
+        display: block;
+
+    }
+
+    #cover {
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media (min-width: 550px) and (max-width: 750px) and (orientation: landscape) {
+    #cover img {
+        display: block;
+        margin-top: 50px;
+    }
+
+    #cover h1 {
+        margin-top: 80px;
+        font-size: 1.2em;
+
+    }
+
+    #cover {
+        text-align: center;
+    }
+}
+
+@media (min-width: 75px) and (max-width: 550px) and (orientation: portrait) {
+    #cover img {
+        display: none;
+    }
+    #cover h1{
+        margin-top:-50px;
+    }
+
+
+
+    #cover {
+
+
+        text-align: center;
+
+    }
+
+}
+
+@media (min-width: 639px) and (max-width: 650px) and (orientation: landscape) {
+    #cover img {
+        display: block;
+    }
+    #cover h1{
+        margin-top:-50px;
+    }
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 780px) and (max-width: 1000px) {
+
+
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+
+}
+img {
+    postion: static;
+}
+
+
+
+
+
+#logo img:hover {
+    height: 60px;
+    width: 70px;
+}
+
+.title2 {
+    margin-top: -20px;
+}
+
+#cover .container {
+    margin-top: 10%;
+
+}
+
+#cover .launch {
+    margin-top: -5%;
+}
+
+
+.home {
+    padding-top: 20px;
+}
+
+.img-responsive {
+    display: block;
+    margin: 0 auto 0px;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+
+}
+
+#touch {
+   width: 105%;
+    max-height: 100%;
+    margin-top: -50px;
+
+}
+
+#touch p {
+    font-size:14px;
+}
+
+footer {
+    background-color: #9BC2E6;
+    color: white;
+    font-family: Typo Light;
+    height: 70px;
+}
