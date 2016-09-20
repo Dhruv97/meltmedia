@@ -17,6 +17,12 @@ body {
 }
 
 @font-face{
+    font-family: 'Roboto-Light';
+    src: url('Roboto-Light.ttf');
+
+}
+
+@font-face{
     font-family: 'Typo';
     src: url('TypoSlab_demo.otf');
 
