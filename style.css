@@ -4,11 +4,11 @@ body {
     min-width: 100%;
     margin-left: 0;
     margin-right: 0;
-    font-family: Typo Light;
+    font-family: 'Typo Light';
 }
 
 .period {
-    font-family: "Arial Rounded ";
+    font-family: 'Arial Rounded';
 }
 @font-face{
     font-family: 'Typo Light';
@@ -74,7 +74,7 @@ body {
 }
 
 .navbar-custom .navbar-nav > li > a {
-    font-family: "Typo Light";
+    font-family: 'Typo Light';
     font-size:18px;
     color:white;
     text-align: center;
